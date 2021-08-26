@@ -4,6 +4,8 @@
     "source.fixAll.eslint": true
   },
   "html.format.wrapAttributes": "force-aligned",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "editor.formatOnSave": false,
