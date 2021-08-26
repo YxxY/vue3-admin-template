@@ -68,7 +68,6 @@ yarn add -D lint-staged husky@4.3.8
     "src/**/*.{js,vue}": [
       "prettier --write .",
       "eslint --fix",
-      "git add"
     ]
   },
   "husky": {
