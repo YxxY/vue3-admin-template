@@ -29,8 +29,11 @@ yarn add -D eslint eslint-plugin-import eslint-config-airbnb-base eslint-plugin-
 - `eslint-config-prettier`, 关闭 prettier 中一些无用或冲突的规则
 - `babel-eslint`, 提供 eslint parser
 
-配置 vscode 使得保存时 eslint 即生效
+配置 eslint 规则
+- `.eslintrc.js`, 规则配置
+- `.eslintignore`, 配置不需要 lint的文件
 
+配置 vscode 使得保存时 eslint 即生效
 - 安装 [eslint 插件](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - 将以下配置写入 `.vscode/settings.json`中
   ```json

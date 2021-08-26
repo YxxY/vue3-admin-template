@@ -25,6 +25,7 @@ module.exports = {
       },
     ],
     'vue/require-default-prop': 'off',
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'prettier/prettier': ['error', { endOfLine: 'auto' }, { usePrettierrc: true }],
     'no-unused-vars': ['error', { varsIgnorePattern: '.*', args: 'none' }],
     'no-console': ['error', { allow: ['warn', 'error'] }],
