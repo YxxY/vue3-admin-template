@@ -1,0 +1,11 @@
+{
+  "eslint.validate": ["vue", "javascript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "html.format.wrapAttributes": "force-aligned",
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": false,
+  "files.eol": "\n"
+}
